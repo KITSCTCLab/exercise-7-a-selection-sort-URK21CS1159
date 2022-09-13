@@ -10,6 +10,7 @@ def selectionSort(array, size) -> List[int]:
                 min_index = j
          # swapping the elements to sort the array
         (array[ind], array[min_index]) = (array[min_index], array[ind])
+        return array[ind]
 
 # Do not change the following code
 input_data = input()
